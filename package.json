@@ -7,6 +7,9 @@
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
-  "author": "Bunny Won",
+  "devDependencies": {
+    "vuepress": "^1.2.0"
+  },
+  "author": "Bunny Wong",
   "license": "ISC"
 }
