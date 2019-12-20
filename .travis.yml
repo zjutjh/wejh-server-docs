@@ -16,9 +16,9 @@ script:
 deploy:
   provider: pages
   target-branch: gh-pages
-  cleanup: false
+  skip-cleanup: true
   github-token: $GH_TOKEN
   fqdn: wejh-server-docs.busybunny.cn
   on:
     branch: master
-  local-dir: .vuepress/dist
+  local-dir: docs/.vuepress/dist
