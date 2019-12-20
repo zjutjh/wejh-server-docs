@@ -17,7 +17,7 @@ deploy:
   provider: pages
   target-branch: gh-pages
   cleanup: false
-  github-token: $GGH_TOKEN
+  github-token: $GH_TOKEN
   fqdn: wejh-server-docs.busybunny.cn
   on:
     branch: master
