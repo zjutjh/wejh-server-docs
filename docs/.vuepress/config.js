@@ -39,11 +39,12 @@ module.exports = {
               children: [
                 "wejh-server/apis-weapp",
                 "wejh-server/apis-auth",
-                // {
-                //   title: "功能模块",
-                //   children: [
-                //   ]
-                // },
+                {
+                  title: "数据模块",
+                  children: [
+                    "wejh-server/apis-exam",
+                  ]
+                },
               ]
             },
           ],
