@@ -45,6 +45,7 @@ module.exports = {
                     "wejh-server/apis-exam",
                     "wejh-server/apis-score",
                     "wejh-server/apis-timetable",
+                    "wejh-server/apis-library"
                   ]
                 },
               ]
