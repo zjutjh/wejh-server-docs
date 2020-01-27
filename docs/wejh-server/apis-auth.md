@@ -17,7 +17,7 @@
 #### `user`
 
 - `id`：自增长用户 id
-- `uno`学号
+- `uno`：学号
 - `email`：邮箱，为空 <Badge text="可选"/>
 - `phone`：手机，为空 <Badge text="可选"/>
 - `user_type`：用户类型（1：学生，2：教师，3：研究生）
@@ -125,7 +125,7 @@
       "created_at": "2017-11-15 04:18:21",
       "updated_at": "2019-12-04 21:30:52"
     },
-    "token": "xxxx"
+    "token": "token"
   },
   "redirect": null
 }
@@ -172,7 +172,7 @@
   "errmsg": "登陆成功",
   "data": {
     "user": {},
-    "token": "xxxx"
+    "token": "token"
   },
   "redirect": null
 }

@@ -37,7 +37,7 @@ module.exports = {
             {
               title: "API",
               children: [
-                "wejh-server/apis-common",
+                "wejh-server/apis-weapp",
                 "wejh-server/apis-auth",
                 // {
                 //   title: "功能模块",
