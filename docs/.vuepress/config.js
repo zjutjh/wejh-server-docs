@@ -43,6 +43,7 @@ module.exports = {
                   title: "数据模块",
                   children: [
                     "wejh-server/apis-exam",
+                    "wejh-server/apis-score",
                   ]
                 },
               ]
