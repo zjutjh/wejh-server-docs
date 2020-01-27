@@ -44,6 +44,7 @@ module.exports = {
                   children: [
                     "wejh-server/apis-exam",
                     "wejh-server/apis-score",
+                    "wejh-server/apis-timetable",
                   ]
                 },
               ]
