@@ -1,7 +1,7 @@
 {
   "name": "wejh-server-docs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Documents for wejh server.",
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
