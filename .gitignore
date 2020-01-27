@@ -4,6 +4,4 @@ node_modules/
 docs/.vuepress/dist/
 *.iml
 
-package-lock.json
-
 **/optout/
