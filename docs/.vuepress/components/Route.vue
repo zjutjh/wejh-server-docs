@@ -25,18 +25,10 @@ export default {
     }
   },
   methods: {
-    // renderMarkdown(item) {
-    //   const md = require("markdown-it")({
-    //     html: true
-    //   });
-    //   return md.render(item);
-    // }
   }
 };
 </script>
 
 <style>
-/* .routeBlock {
-  margin: 1rem 0 2rem;
-} */
+
 </style>
