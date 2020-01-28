@@ -34,10 +34,11 @@ module.exports = {
                 {
                   title: "数据模块",
                   children: [
+                    "wejh-server/apis-timetable",
                     "wejh-server/apis-exam",
                     "wejh-server/apis-score",
-                    "wejh-server/apis-timetable",
-                    "wejh-server/apis-library"
+                    "wejh-server/apis-library",
+                    "wejh-server/apis-free-room"
                   ]
                 },
               ]
