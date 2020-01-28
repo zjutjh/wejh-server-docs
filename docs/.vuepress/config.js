@@ -38,7 +38,8 @@ module.exports = {
                     "wejh-server/apis-exam",
                     "wejh-server/apis-score",
                     "wejh-server/apis-library",
-                    "wejh-server/apis-free-room"
+                    "wejh-server/apis-free-room",
+                    "wejh-server/apis-card"
                   ]
                 },
               ]
