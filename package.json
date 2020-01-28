@@ -11,5 +11,5 @@
     "vuepress": "^1.2.0"
   },
   "author": "Bunny Wong",
-  "license": "ISC"
+  "license": "GPL-3.0-or-later"
 }
