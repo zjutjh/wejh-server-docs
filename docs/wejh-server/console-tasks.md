@@ -37,7 +37,7 @@ git pull >/dev/null &
 
 ::: warning 提示
 
-该命令没有实际作用
+该命令目前没有实现
 
 :::
 
