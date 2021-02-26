@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>成绩模块 | 微精弘</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    <link rel="icon" href="/logo-square.png">
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/assets/css/0.styles.f6b8bc94.css" as="style"><link rel="preload" href="/assets/js/app.6e552ccf.js" as="script"><link rel="preload" href="/assets/js/2.442a24d4.js" as="script"><link rel="preload" href="/assets/js/15.f9713b4f.js" as="script"><link rel="preload" href="/assets/js/6.41fe0105.js" as="script"><link rel="preload" href="/assets/js/3.d9b5f3b8.js" as="script"><link rel="prefetch" href="/assets/js/10.cc931811.js"><link rel="prefetch" href="/assets/js/11.99520e13.js"><link rel="prefetch" href="/assets/js/12.6df670a3.js"><link rel="prefetch" href="/assets/js/13.b1c9ffa7.js"><link rel="prefetch" href="/assets/js/14.51ca37a7.js"><link rel="prefetch" href="/assets/js/16.fd2f8307.js"><link rel="prefetch" href="/assets/js/17.2cabd6f8.js"><link rel="prefetch" href="/assets/js/18.3019ebfe.js"><link rel="prefetch" href="/assets/js/19.f6549223.js"><link rel="prefetch" href="/assets/js/4.7ecaca46.js"><link rel="prefetch" href="/assets/js/5.65a56707.js"><link rel="prefetch" href="/assets/js/7.b14d29dc.js"><link rel="prefetch" href="/assets/js/8.3814a5a6.js"><link rel="prefetch" href="/assets/js/9.64425559.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.f6b8bc94.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo-round.png" alt="微精弘" class="logo"> <span class="site-name can-hide">微精弘</span></a> <div class="links"><!----> <nav class="nav-links can-hide"><div class="nav-item"><a href="https://github.com/GetToSet/wejh-server-docs/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="/" class="nav-link">
+  主页
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="https://github.com/GetToSet/wejh-server-docs/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="/" class="nav-link">
+  主页
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>微精弘小程序服务端</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/wejh-server/console-tasks.html" class="sidebar-link">控制台命令</a></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading open"><span>API</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/wejh-server/apis-weapp.html" class="sidebar-link">小程序模块</a></li><li><a href="/wejh-server/apis-auth.html" class="sidebar-link">认证模块</a></li><li><a href="/wejh-server/apis-common.html" class="sidebar-link">通用模块</a></li><li><section class="sidebar-group collapsable is-sub-group depth-2"><p class="sidebar-heading open"><span>数据模块</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/wejh-server/apis-timetable.html" class="sidebar-link">课表模块</a></li><li><a href="/wejh-server/apis-exam.html" class="sidebar-link">排考模块</a></li><li><a href="/wejh-server/apis-score.html" aria-current="page" class="active sidebar-link">成绩模块</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/wejh-server/apis-score.html#获取成绩信息" class="sidebar-link">获取成绩信息</a></li><li class="sidebar-sub-header"><a href="/wejh-server/apis-score.html#成绩明细" class="sidebar-link">成绩明细</a></li><li class="sidebar-sub-header"><a href="/wejh-server/apis-score.html#学期切换" class="sidebar-link">学期切换</a></li></ul></li><li><a href="/wejh-server/apis-library.html" class="sidebar-link">图书馆模块</a></li><li><a href="/wejh-server/apis-free-room.html" class="sidebar-link">空教室模块</a></li><li><a href="/wejh-server/apis-card.html" class="sidebar-link">校园卡模块</a></li></ul></section></li></ul></section></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="成绩模块"><a href="#成绩模块" class="header-anchor">#</a> 成绩模块</h1> <h2 id="获取成绩信息"><a href="#获取成绩信息" class="header-anchor">#</a> 获取成绩信息</h2> <h3 id="路径"><a href="#路径" class="header-anchor">#</a> 路径</h3> <div id="/api/ycjw/score" class="routeBlock"><p class="badge"><code>/api/ycjw/score</code> <span class="badge tip" style="vertical-align:top;" data-v-15b7b770>GET</span> <span class="badge warning" style="vertical-align:top;" data-v-15b7b770>需要认证</span></p></div> <h3 id="参数"><a href="#参数" class="header-anchor">#</a> 参数</h3> <p>无</p> <h3 id="响应"><a href="#响应" class="header-anchor">#</a> 响应</h3> <ul><li><code>list</code>：成绩信息</li> <li><code>semester</code>：学期名，例：上</li> <li><code>grade_name</code>：年级名，例：三</li> <li><code>term</code>：学期，例：2019/2020(1)</li> <li><code>gpa</code>：平均学分绩点</li></ul> <h4 id="list"><a href="#list" class="header-anchor">#</a> <code>list</code></h4> <ul><li><code>学期</code>：学期</li> <li><code>名称</code>：教师</li> <li><code>名称</code>：课程</li> <li><code>考试性质</code>：考试性质</li> <li><code>成绩</code>：成绩</li> <li><code>学时</code>：学时</li> <li><code>学分</code>：学分</li> <li><code>绩点</code>：课程绩点（可能返回 0）</li> <li><code>课程性质名称</code>：课程性质名称</li> <li><code>课程归属名称</code>：课程归属名称（公选课类别）</li></ul> <h3 id="状态"><a href="#状态" class="header-anchor">#</a> 状态</h3> <table><thead><tr><th>错误码</th> <th>状态</th></tr></thead> <tbody><tr><td>1</td> <td>获取排考成功</td></tr> <tr><td>-1</td> <td>没有认证信息</td></tr> <tr><td>-1</td> <td>需要绑定（用户名或密码为空）</td></tr> <tr><td>-1</td> <td>请重新绑定正方账号（用户名或密码错误）</td></tr> <tr><td>-1</td> <td>其他错误</td></tr></tbody></table> <h3 id="例子"><a href="#例子" class="header-anchor">#</a> 例子</h3> <ul><li>正方数据举例：</li></ul> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">&quot;errcode&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;errmsg&quot;</span><span class="token operator">:</span> <span class="token string">&quot;获取成绩成功&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;data&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">&quot;grade_name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;一&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;semester&quot;</span><span class="token operator">:</span> <span class="token string">&quot;上&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;term&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2017/2018(1)&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;list&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        <span class="token property">&quot;学期&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2017/2018(1)&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;名称&quot;</span><span class="token operator">:</span> <span class="token string">&quot;体育&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;考试性质&quot;</span><span class="token operator">:</span> <span class="token string">&quot;正常考试&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;成绩&quot;</span><span class="token operator">:</span> <span class="token string">&quot;60&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;学时&quot;</span><span class="token operator">:</span> <span class="token string">&quot;60&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;学分&quot;</span><span class="token operator">:</span> <span class="token string">&quot;1.0&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;绩点&quot;</span><span class="token operator">:</span> <span class="token string">&quot;1.00&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;课程性质名称&quot;</span><span class="token operator">:</span> <span class="token string">&quot;体育课&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;课程归属名称&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        <span class="token property">&quot;学期&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2017/2018(1)&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;名称&quot;</span><span class="token operator">:</span> <span class="token string">&quot;大学英语&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;考试性质&quot;</span><span class="token operator">:</span> <span class="token string">&quot;正常考试&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;成绩&quot;</span><span class="token operator">:</span> <span class="token string">&quot;90&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;学时&quot;</span><span class="token operator">:</span> <span class="token string">&quot;90&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;学分&quot;</span><span class="token operator">:</span> <span class="token string">&quot;4.0&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;绩点&quot;</span><span class="token operator">:</span> <span class="token string">&quot;4.00&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;课程性质名称&quot;</span><span class="token operator">:</span> <span class="token string">&quot;必修课&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;课程归属名称&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        <span class="token property">&quot;学期&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2017/2018(1)&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;名称&quot;</span><span class="token operator">:</span> <span class="token string">&quot;线性代数&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;考试性质&quot;</span><span class="token operator">:</span> <span class="token string">&quot;正常考试&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;成绩&quot;</span><span class="token operator">:</span> <span class="token string">&quot;90&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;学时&quot;</span><span class="token operator">:</span> <span class="token string">&quot;90&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;学分&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2.0&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;绩点&quot;</span><span class="token operator">:</span> <span class="token string">&quot;4.00&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;课程性质名称&quot;</span><span class="token operator">:</span> <span class="token string">&quot;必修课&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;课程归属名称&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        <span class="token property">&quot;学期&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2017/2018(1)&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;名称&quot;</span><span class="token operator">:</span> <span class="token string">&quot;高等数学Ⅰ&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;考试性质&quot;</span><span class="token operator">:</span> <span class="token string">&quot;正常考试&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;成绩&quot;</span><span class="token operator">:</span> <span class="token string">&quot;86&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;学时&quot;</span><span class="token operator">:</span> <span class="token string">&quot;86&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;学分&quot;</span><span class="token operator">:</span> <span class="token string">&quot;5.0&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;绩点&quot;</span><span class="token operator">:</span> <span class="token string">&quot;3.60&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;课程性质名称&quot;</span><span class="token operator">:</span> <span class="token string">&quot;必修课&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;课程归属名称&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        <span class="token property">&quot;学期&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2017/2018(1)&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;名称&quot;</span><span class="token operator">:</span> <span class="token string">&quot;程序设计基础C&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;考试性质&quot;</span><span class="token operator">:</span> <span class="token string">&quot;正常考试&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;成绩&quot;</span><span class="token operator">:</span> <span class="token string">&quot;94&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;学时&quot;</span><span class="token operator">:</span> <span class="token string">&quot;94&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;学分&quot;</span><span class="token operator">:</span> <span class="token string">&quot;4.0&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;绩点&quot;</span><span class="token operator">:</span> <span class="token string">&quot;4.40&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;课程性质名称&quot;</span><span class="token operator">:</span> <span class="token string">&quot;必修课&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;课程归属名称&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        <span class="token property">&quot;学期&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2017/2018(1)&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;名称&quot;</span><span class="token operator">:</span> <span class="token string">&quot;中国近现代史纲要&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;考试性质&quot;</span><span class="token operator">:</span> <span class="token string">&quot;正常考试&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;成绩&quot;</span><span class="token operator">:</span> <span class="token string">&quot;良好&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;学时&quot;</span><span class="token operator">:</span> <span class="token string">&quot;良好&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;学分&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2.0&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;绩点&quot;</span><span class="token operator">:</span> <span class="token string">&quot;3.50&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;课程性质名称&quot;</span><span class="token operator">:</span> <span class="token string">&quot;必修课&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;课程归属名称&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        <span class="token property">&quot;学期&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2017/2018(1)&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;名称&quot;</span><span class="token operator">:</span> <span class="token string">&quot;3D打印-从想象到现实&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;考试性质&quot;</span><span class="token operator">:</span> <span class="token string">&quot;正常考试&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;成绩&quot;</span><span class="token operator">:</span> <span class="token string">&quot;良好&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;学时&quot;</span><span class="token operator">:</span> <span class="token string">&quot;良好&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;学分&quot;</span><span class="token operator">:</span> <span class="token string">&quot;1.0&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;绩点&quot;</span><span class="token operator">:</span> <span class="token string">&quot;3.50&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;课程性质名称&quot;</span><span class="token operator">:</span> <span class="token string">&quot;任选课&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;课程归属名称&quot;</span><span class="token operator">:</span> <span class="token string">&quot;科学素养&quot;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        <span class="token property">&quot;学期&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2017/2018(1)&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;名称&quot;</span><span class="token operator">:</span> <span class="token string">&quot;大学生创新创业法律指导&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;考试性质&quot;</span><span class="token operator">:</span> <span class="token string">&quot;正常考试&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;成绩&quot;</span><span class="token operator">:</span> <span class="token string">&quot;优秀&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;学时&quot;</span><span class="token operator">:</span> <span class="token string">&quot;优秀&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;学分&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2.0&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;绩点&quot;</span><span class="token operator">:</span> <span class="token string">&quot;4.50&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;课程性质名称&quot;</span><span class="token operator">:</span> <span class="token string">&quot;任选课&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;课程归属名称&quot;</span><span class="token operator">:</span> <span class="token string">&quot;创新创业&quot;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        <span class="token property">&quot;学期&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2017/2018(1)&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;名称&quot;</span><span class="token operator">:</span> <span class="token string">&quot;大学信息技术基础（预科）&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;考试性质&quot;</span><span class="token operator">:</span> <span class="token string">&quot;正常考试&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;成绩&quot;</span><span class="token operator">:</span> <span class="token string">&quot;88&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;学时&quot;</span><span class="token operator">:</span> <span class="token string">&quot;88&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;学分&quot;</span><span class="token operator">:</span> <span class="token string">&quot;1.0&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;绩点&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;课程性质名称&quot;</span><span class="token operator">:</span> <span class="token string">&quot;必修课&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;课程归属名称&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;gpa&quot;</span><span class="token operator">:</span> <span class="token string">&quot;3.758&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;redirect&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="成绩明细"><a href="#成绩明细" class="header-anchor">#</a> 成绩明细</h2> <h3 id="路径-2"><a href="#路径-2" class="header-anchor">#</a> 路径</h3> <div id="/api/Ycjw/scoreDetail" class="routeBlock"><p class="badge"><code>/api/Ycjw/scoreDetail</code> <span class="badge tip" style="vertical-align:top;" data-v-15b7b770>PUT</span> <span class="badge warning" style="vertical-align:top;" data-v-15b7b770>需要认证</span></p></div> <h3 id="备注"><a href="#备注" class="header-anchor">#</a> 备注</h3> <p>该 API 用于查询成绩明细（期中、总评）。但目前来看似乎不会返回任何数据。</p> <h3 id="参数-2"><a href="#参数-2" class="header-anchor">#</a> 参数</h3> <p>无</p> <h3 id="响应-2"><a href="#响应-2" class="header-anchor">#</a> 响应</h3> <p>暂无</p> <h3 id="状态-2"><a href="#状态-2" class="header-anchor">#</a> 状态</h3> <table><thead><tr><th>错误码</th> <th>状态</th></tr></thead> <tbody><tr><td>1</td> <td>获取排考成功</td></tr> <tr><td>-1</td> <td>没有认证信息</td></tr> <tr><td>-1</td> <td>需要绑定（用户名或密码为空）</td></tr> <tr><td>-1</td> <td>请重新绑定正方账号（用户名或密码错误）</td></tr> <tr><td>-1</td> <td>其他错误</td></tr></tbody></table> <h3 id="例子-2"><a href="#例子-2" class="header-anchor">#</a> 例子</h3> <p>暂无</p> <h2 id="学期切换"><a href="#学期切换" class="header-anchor">#</a> 学期切换</h2> <h3 id="路径-3"><a href="#路径-3" class="header-anchor">#</a> 路径</h3> <div id="/api/Ycjw/score" class="routeBlock"><p class="badge"><code>/api/Ycjw/score</code> <span class="badge tip" style="vertical-align:top;" data-v-15b7b770>PUT</span> <span class="badge warning" style="vertical-align:top;" data-v-15b7b770>需要认证</span></p></div> <h3 id="备注-2"><a href="#备注-2" class="header-anchor">#</a> 备注</h3> <p>该 API 仅修改微精弘服务端中的学期信息，不连接数据服务器进行查询。</p> <h3 id="参数-3"><a href="#参数-3" class="header-anchor">#</a> 参数</h3> <ul><li><code>term</code>：学期，例：2019/2020(1)</li></ul> <h3 id="响应-3"><a href="#响应-3" class="header-anchor">#</a> 响应</h3> <p>空</p> <h3 id="状态-3"><a href="#状态-3" class="header-anchor">#</a> 状态</h3> <table><thead><tr><th>错误码</th> <th>状态</th></tr></thead> <tbody><tr><td>1</td> <td>切换学期成功</td></tr> <tr><td>-1</td> <td>没有认证信息</td></tr></tbody></table> <h3 id="例子-3"><a href="#例子-3" class="header-anchor">#</a> 例子</h3> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">&quot;errcode&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;errmsg&quot;</span><span class="token operator">:</span> <span class="token string">&quot;切换学期成功&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;data&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;redirect&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span>
+<span class="token punctuation">}</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">最近更新:</span> <span class="time">2/26/2021, 8:45:10 AM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/wejh-server/apis-exam.html" class="prev">
+        排考模块
+      </a></span> <span class="next"><a href="/wejh-server/apis-library.html">
+        图书馆模块
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.6e552ccf.js" defer></script><script src="/assets/js/2.442a24d4.js" defer></script><script src="/assets/js/15.f9713b4f.js" defer></script><script src="/assets/js/6.41fe0105.js" defer></script><script src="/assets/js/3.d9b5f3b8.js" defer></script>
+  </body>
+</html>
